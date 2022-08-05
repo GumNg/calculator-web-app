@@ -1,0 +1,19 @@
+{
+  "name": "calculator-web-app",
+  "version": "1.0.0",
+  "description": "Creating calculator web app using node js",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GumNg/calculator-web-app.git"
+  },
+  "author": "Gum Ng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GumNg/calculator-web-app/issues"
+  },
+  "homepage": "https://github.com/GumNg/calculator-web-app#readme"
+}
