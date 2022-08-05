@@ -14,6 +14,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
+// route to get method to bmicalculator and send response
+app.get("/bmicalculator", function (req, res) {
+  res.sendFile(__dirname + "/bmiCalculator.html");
+});
 
 // handles post request that comes to home route
 app.post("/", function (req, res) {
