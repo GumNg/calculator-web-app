@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GumNg/calculator-web-app/issues"
   },
-  "homepage": "https://github.com/GumNg/calculator-web-app#readme"
+  "homepage": "https://github.com/GumNg/calculator-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
