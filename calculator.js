@@ -1,5 +1,5 @@
 // express setup
-const express = required("express");
+const express = require("express");
 const app = express()
 
 // create root route to get method and send response
