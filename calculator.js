@@ -17,12 +17,14 @@ app.get("/", function (req, res) {
 
 // handles post request that comes to home route
 app.post("/", function (req, res) {
-    // sets values of numbers in html form
+  // sets values of numbers in html form
   let num1 = Number(req.body.num1);
   let num2 = Number(req.body.num2);
-//   sets value of calculation of values
+  //  sets value of calculation of values
   let result = num1 + num2;
-})
+  // responds to inputs with result of calculations
+  res.send("The result of the calculation " + result);
+});
 
 //create server on port 3000
 app.listen(3000, function () {
