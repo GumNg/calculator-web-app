@@ -30,6 +30,11 @@ app.post("/", function (req, res) {
   res.send("The result of the calculation " + result);
 });
 
+app.post("/bmicalculator", function(req, res) {
+    let height = Number(req.body.height);
+    let weight = Number(req.body.weight);
+})
+
 //create server on port 3000
 app.listen(3000, function () {
   console.log("Server started on port 3000");
