@@ -31,12 +31,12 @@ app.post("/", function (req, res) {
 });
 
 app.post("/bmicalculator", function(req, res) {
-    let weight = Number(req.body.weight);
-    let height = Number(req.body.height);
+    let weight = parseFloat(req.body.weight);
+    let height = parseFloat(req.body.height);
     // calculates bmi
-    let n = Math.round(weight / Math.pow(height, 2));
+    let bmi = weight / Math.pow(height, 2);
     // responds to inputs with bmi calculation
-    res.send("Your BMI is " + n);
+    res.send("Your BMI is " + bmi);
 });
 
 //create server on port 3000
