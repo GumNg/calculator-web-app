@@ -31,8 +31,8 @@ app.post("/", function (req, res) {
 });
 
 app.post("/bmicalculator", function(req, res) {
-    let height = Number(req.body.height);
     let weight = Number(req.body.weight);
+    let height = Number(req.body.height);
 })
 
 //create server on port 3000
